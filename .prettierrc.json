@@ -1,15 +1,15 @@
 {
-    "plugins": ["@shufo/prettier-plugin-blade"],
-    "overrides": [
-        {
-            "files": ["*.blade.php"],
-            "options": {
-                "parser": "blade",
-                "bracketSameLine": true,
-                "sortTailwindcssClasses": true,
-                "tabWidth": 2,
-                "wrapAttributes": "preserve"
-            }
-        }
-    ]
+  "plugins": ["@shufo/prettier-plugin-blade"],
+  "overrides": [
+    {
+      "files": ["*.blade.php"],
+      "options": {
+        "parser": "blade",
+        "bracketSameLine": true,
+        "sortTailwindcssClasses": true,
+        "tabWidth": 2,
+        "wrapAttributes": "preserve"
+      }
+    }
+  ]
 }
