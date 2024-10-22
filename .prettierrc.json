@@ -6,7 +6,9 @@
             "options": {
                 "parser": "blade",
                 "bracketSameLine": true,
-                "tabWidth": 4
+                "sortTailwindcssClasses": true,
+                "tabWidth": 2,
+                "wrapAttributes": "preserve"
             }
         }
     ]
