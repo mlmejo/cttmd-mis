@@ -4,6 +4,7 @@
       <h1 class="text-center text-xl font-bold uppercase leading-tight text-san-marino-500">
         Admin Login
       </h1>
+
       <form action="{{ route('login') }}"
             method="post"
             class="mt-4 w-full max-w-md">

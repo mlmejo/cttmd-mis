@@ -22,12 +22,12 @@
 
 <body class="font-sans antialiased">
   <div class="flex min-h-screen flex-col bg-san-marino-600">
-    <div class="h-9 border-b border-gray-300 bg-white"></div>
+    <div class="h-9 border-b border-gray-100 bg-white"></div>
 
     {{ $slot }}
 
     <footer
-            class="inline-flex h-9 items-center justify-center border-t border-gray-300 bg-white text-sm font-medium text-gray-800">
+            class="inline-flex h-9 items-center justify-center border-t border-gray-100 bg-white text-sm font-medium text-gray-800">
       &copy 2024, All Rights Reserved.
     </footer>
   </div>
